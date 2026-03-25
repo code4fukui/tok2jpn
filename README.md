@@ -1,18 +1,29 @@
 # tok2jpn
-日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
 
-A Toki Pona dictionary with Japanese translations.
+トキポナ辞書 - tok2jpn
 
-## Demo
-The dictionary is available online at https://code4fukui.github.io/tok2jpn/
+**Live demo**: https://code4fukui.github.io/tok2jpn/
 
 ## Features
-- Toki Pona to Japanese dictionary
-- Uses the 'linja suwi' font for Toki Pona characters
-- Powered by ChatGPT for the dictionary data
 
-## Data / API
-The dictionary data is stored in the `tok2jpn.csv` file in this repository.
+- CSV data parsing
+
+## Technology Stack
+
+**Browser modules (ES imports):**
+
+- [`CSV.js`](https://js.sabae.cc/CSV.js)
+
+
+## Installation & Setup
+
+No build step required. Clone the repository and open `index.html` in a browser,
+or visit the live demo at https://code4fukui.github.io/tok2jpn/
+
+## Contributing
+
+Contributions are welcome. Please open an issue or pull request on GitHub.
 
 ## License
-This project is licensed under the [MIT License](LICENSE).
+
+MIT License. See [LICENSE](./LICENSE) for details.
